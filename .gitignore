@@ -1,0 +1,92 @@
+# HAVOC 3.0 - Git Ignore File
+
+# Compiled binaries
+havoc
+havoc-debug
+havoc-static
+*.o
+*.a
+*.so
+*.dylib
+
+# Evidence and output directories
+evidence/
+*.tar.gz
+*.json
+*.txt
+*.html
+*.sha256
+
+# Build artifacts
+.deps/
+.libs/
+*.lo
+*.la
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+
+# Editor and IDE files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.directory
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Archive files (except documentation)
+*.zip
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Package manager files
+*.deb
+*.rpm
+*.pkg
+
+# Test outputs
+test_*
+benchmark_*
+profile_*
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Coverage reports
+*.gcov
+*.gcno
+*.gcda
+coverage.info
+coverage/
+
+# Static analysis
+cppcheck.xml
+*.plist
